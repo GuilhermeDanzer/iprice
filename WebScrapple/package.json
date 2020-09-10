@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "functions-framework --target=foods"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.7.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "puppeteer": "^5.2.1"
+  },
+  "bin": {
+    "execute": "index.js"
+  },
+  "name": "foods",
+  "version": "1.0.0",
+  "description": "search the cheapest food on ifood",
+  "main": "teste.js",
+  "devDependencies": {},
+  "keywords": [
+    "food"
+  ],
+  "author": "Guilherme Danzer",
+  "license": "ISC"
+}
